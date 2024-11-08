@@ -1,0 +1,22 @@
+{
+  "name": "repro-rslib-bundle-typings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf .rslib && rslib build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@8.14.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "kit": "link:./kit",
+    "@rslib/core": "^0.0.16",
+    "@types/node": "18",
+    "typescript": "5.4.2",
+    "@microsoft/api-extractor": "7.47.11"
+  }
+}
